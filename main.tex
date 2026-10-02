@@ -70,7 +70,8 @@ major changes are:
   \item Complete quotation traceability: every quote now carries a label specifying
         the interview part, question number, and transcript timestamp (e.g., [Part 2,
         Vignette A, Q5, 9:54]).
-  \item Silently cleaned quotations converted to explicitly labelled paraphrases.
+  \item Silently cleaned quotations converted to explicitly labelled paraphrases, and paraphrases replaced with verbatim excerpts wherever the transcript is clear enough.
+  \item A re-check of the code coverage table and every dependent count against the transcripts, with item-level evidence for the risk checklist (Appendix~D).
   \item A second structured validation round via email (August--September 2026) with
         full verbatim responses in Appendix C.
   \item Correction of the bibliography errors identified in the feedback (paper mill
@@ -151,15 +152,13 @@ Agile development (Scrum) and notes that Kanban and other methods do not use spr
 R1.10 &
 Method chapter has nice optics but is not a transparent description. Machine
 transcription not disclosed; transcript accuracy not addressed. &
-Section~3.4 now discloses: ``Transcription was completed using automated
-speech-to-text software and reviewed by one researcher for accuracy prior to coding;
-occasional recognition errors may remain.'' \\
+Section~3.4 now names the transcription tool and its limits: ``Transcripts were produced by the automatic transcription feature of Microsoft Teams, the platform on which the interviews were held, and were reviewed by one researcher for accuracy prior to coding; occasional recognition errors may remain in the transcripts.'' Section~5.6 notes that the audio was processed by this third-party service. \\
 
 R1.11 &
 Protocol deviations (P5 only received Vignette A; wording adapted for P3) not
 disclosed. &
 Section~3.4 now includes a dedicated Protocol Deviations paragraph disclosing both
-deviations. P5 is marked N/A for B1--B4 in Table~3.1; all Vignette B findings use
+deviations. P5 is marked N/A for B1--B4 in Table~3.2; all Vignette B findings use
 eight participants rather than nine. The adaptation for P3 was an ad hoc interviewer
 decision; P2, who also had no direct AI tool experience, did not receive the same
 adaptation. This inconsistency is acknowledged as a limitation. \\
@@ -167,17 +166,12 @@ adaptation. This inconsistency is acknowledged as a limitation. \\
 R1.12 &
 Saturation table (Table~3.1) makes no sense given the actual interview order (P5, P2,
 P9, P7, P6, P8, P1, P4, P3); looks different from the May~10 draft. &
-Table~3.1 renamed ``Code coverage across participants''; ``New codes introduced'' row
-removed. Caption explains that P1--P9 are ordered by seniority not interview date.
-Surrounding text states explicitly that saturation was not established: all interviews
-were completed before coding began; recruitment stopped because of scheduling
-constraints. The actual chronological interview order is stated in the text. \\
+The table (now Table~3.2, ``Code coverage across participants'') no longer has a ``New codes introduced'' row and has been moved into Section~3.5 (Data Analysis). Its caption states that columns follow participant labels, not interview order, and the text states that it is not a saturation analysis: all interviews were completed before coding began, and recruitment stopped because of scheduling constraints. The chronological interview order is given in Sections~3.3 and~3.4. The earlier claim that labels reflect seniority has been removed, and interview dates and times are no longer printed next to participant labels. \\
 
 R1.13 &
 ``We continued recruitment until we reached thematic saturation [Braun \& Clarke]''
 --- Braun \& Clarke do not discuss saturation. &
-Citation removed. Sample size sentence now states ``a pragmatic recruitment goal
-given the project scope and access constraints.'' \\
+Citation removed. The sample size sentence now states ``a pragmatic recruitment goal given the project scope and access constraints.'' Section~3.3 also argues the adequacy of the sample using the concept of information power (Malterud et al.\ 2016), including the dimensions that count against nine participants, and states that saturation is not claimed. \\
 
 R1.14 &
 Three Creswell page references (pp.~47--48, pp.~86--87, pp.~146--149) point to
@@ -187,12 +181,7 @@ All three removed. \\
 R1.15 &
 ``Open coding with no predetermined categories'' contradicts the pre-existing
 operational definitions in the March project plan. &
-Section~3.5 now describes ``inductive thematic coding informed by sensitising
-concepts'' in Phase~A, explicitly separated from deductive HACO mapping in Phase~B.
-Interpretive criteria (anchoring, algorithm aversion, calibrated reliance) are
-described as sensitising concepts. The actual codebook codes are A1--C5 (Appendix~B).
-The phrase ``operational definitions used throughout coding'' has been replaced with
-``interpretive criteria used to connect final codes to research questions.'' \\
+Section~3.5 now names the approach as a codebook approach to thematic analysis (Braun and Clarke 2021) and states that the sensitising concepts drafted in the March project plan directed attention during coding, so Phase~2 ``was not free of predetermined categories.'' The claim of coding without predetermined categories has been withdrawn. Section~3.5 also states that the three code groups correspond to the three parts of the interview guide. The codebook codes are A1--C5 (Appendix~B), and the phrase ``operational definitions used throughout coding'' has been replaced with ``interpretive criteria used to connect final codes to research questions.'' \\
 
 R1.16 &
 ``Dismissal-without-engagement pattern associated with algorithm aversion risk'' is
@@ -204,15 +193,11 @@ phrase is used only in the analysis text where codes are interpreted. \\
 R1.17 &
 Phase B is descriptive; does not show how HACO mapping challenged or improved
 interpretation beyond organising codes into broad buckets. &
-Sections~3.5 and~3.6 now explain two analytical insights from the HACO mapping:
-(1) A3 and C4 revealed complementary structural safeguards; (2) the Learning Paradigm
-dimension produced no codes, itself an analytical finding. \\
+Section~3.6 now shows what the HACO mapping added: A3 (number withholding, task characteristics) and C4 (facilitator as mediator, teaming characteristics) read as one safeguard at two levels and are held by the same five participants, which is why the model treats Principle~1 and the facilitator's Zone~2 role as one mechanism. The learning paradigm dimension attracted no consistent codes, which points to a gap discussed in Chapter~5. The paragraph that was previously repeated in Section~3.5 has been removed. \\
 
 R1.18 &
 Inter-coder agreement never stated. &
-Section~3.5 Phase~4 now states: ``Formal inter-coder reliability was not calculated;
-disagreements were resolved through discussion and codebook definitions were refined
-until both researchers agreed.'' \\
+Section~3.5 (Phase~4) now states that the second researcher applied the draft code definitions independently to five transcript excerpts as a consistency check, and that ``No inter-coder agreement statistic was calculated; the check served to sharpen the definitions rather than to measure agreement.'' \\
 
 R1.19 &
 All quotations completely decontextualized: impossible to tell if Part~1, Part~2, or
@@ -235,27 +220,7 @@ Validation evidence almost certainly heavily edited; may not be authentic; conta
 information not given to participants (``2 out of 9 is low evidence''). Timeline is
 impossible: interviews ended May~3; full model communicated and responses received
 before May~10. &
-A second structured validation round was conducted via email in August--September 2026
-after receiving the examiner's feedback. Full verbatim responses from P6, P8 and P4
-are in Appendix~C. The first round is now described as ``informal preliminary feedback
-with limited traceability'' and is not treated as equivalent in evidential weight to
-the documented second round. According to the authors' reconstruction, two refinements
-were associated with the first round: adding sprint inertia and significant team
-composition change as moderate risk conditions. No supervisor confirmation is claimed. \\
-
-R1.22 &
-The thesis treats identification of anchoring risk as evidence that anchoring bias
-manifested. Awareness is not the same as observing the bias. &
-Language throughout Chapter~4 revised. ``Bias manifested'' does not appear. The thesis
-now says practitioners ``described'' or ``responses consistent with.'' \\
-
-R1.23 &
-The claim that the model ``emerged'' from open inductive coding is too strong: elements
-like human final authority and transparency are part of HACO. &
-Section~3.6 now states the model ``was constructed after analysis by combining
-recurring participant accounts, the deductive HACO mapping, and the theoretical
-concepts established before data collection.'' The word ``emerged'' has been replaced
-throughout. \\
+A second structured validation round was conducted via email in August--September 2026. Full verbatim responses from P6, P8 and P4 are in Appendix~C, and Table~5.1 lists every validator proposal with its disposition, including those not adopted. Section~3.6 now describes the first round as informal and preliminary: ``a complete written record is not available, and this round is given no evidential weight in this thesis.'' According to the authors' reconstruction, two refinements were associated with the first round; both are independently supported by interview accounts listed in Appendix~D. No supervisor confirmation is claimed. Section~5.5 discusses the circularity of the second round (the validators' accounts informed the model) and the possible effect of the outreach email mentioning the examiner. \\
 
 R1.24 &
 Ref~[5] is likely a paper mill output. &
@@ -268,7 +233,7 @@ Seven bibliography corrections made (see Further Changes section for full list).
 
 R1.26 &
 Abstract labels results section ``Conclusions.'' &
-Changed to ``Model.'' \\
+The abstract now uses the five required elements: Background, Objectives, Methods, Results and Conclusions. The results are labelled Results, and the Conclusions element states what the findings mean and their limits. \\
 
 R1.27 &
 Page~2 formatting issues: vertical space in declaration, text running over margin,
@@ -296,9 +261,7 @@ definitions. \\
 R2.2 &
 The data analysis process and model construction process were not justified and
 motivated. &
-Phase-by-phase description of data analysis added (Phases~1--6 explicitly named).
-Section~3.6 explains the three-phase model construction (Phase~A: inductive coding;
-Phase~B: HACO mapping; Phase~C: model construction). \\
+Section~3.5 describes the six analysis phases, and Section~3.6 describes the sixth phase (HACO mapping and model construction), including what the HACO mapping added and the provenance of each model component. The former parallel Phase~A/B/C scheme has been removed so that one phase scheme is used throughout. \\
 
 R2.3 &
 ``The interaction principles emerged because participants described practices.'' How
@@ -311,11 +274,7 @@ addressed a specific bias risk identified in RQ1. \\
 R2.4 &
 Evidences are silent on how anchoring bias and aversion risk affect practitioner
 reasoning and perceived quality. The quotes may not be relevant to support the claims. &
-``Perceived decision quality'' removed from RQ1a. Every quote now tagged with
-interview part, question, and timestamp. Quote tagging makes it possible to assess
-whether each quote supports the claim it is used to support. Summary tables in
-Chapter~4 show participant coverage and evidence type. Table~4.1 additionally reports
-the applicable denominator for each finding. \\
+``Perceived decision quality'' removed from RQ1a. Every quote is tagged with interview part, question, and timestamp, so it is possible to assess whether each quote supports the claim it is used for. Question labels were checked against the timestamps, and several passages previously given as paraphrases (for example P8 at 9:43, 14:24, 15:27, 16:04 and 25:38, and P4 at 23:48) are now verbatim excerpts. Summary tables in Chapter~4 show participant coverage and evidence type, and Table~4.1 reports the applicable denominator for each finding. \\
 
 \end{longtable}
 }
@@ -338,7 +297,7 @@ the revised draft before resubmission.
 
 Sup1 &
 Chapters~1 and 2 still too short; no introduction of relevant concepts. &
-Addressed --- see R1.1 above. \\
+Addressed; see R1.1 above. \\
 
 Sup2 &
 Why did you not follow the vignette methodology directly given that you admit it has
@@ -363,62 +322,36 @@ acknowledged explicitly in Section~3.4 as a limitation. \\
 
 Sup4 &
 How does the absence of Vignette B from P5 affect the results? &
-P5 is now marked N/A for B1--B4 in Table~3.1 with the note ``not elicited because
-Vignette B was not administered.'' All Vignette B findings use an analysable
-denominator of eight participants rather than nine. This is acknowledged as a
-limitation. \\
+P5 is marked N/A for B1--B4 in Table~3.2 with the note ``not elicited because Vignette~B was not administered to P5.'' All Vignette B findings use an analysable denominator of eight participants rather than nine. This is acknowledged as a limitation. \\
 
 Sup5 &
 There are different sets of concepts in Chapter~3 and Appendix~B. &
 Three levels of concepts are now distinguished in Section~3.5: (1) a priori
 sensitising concepts (anchoring, algorithm aversion, calibrated reliance); (2) the
 actual transcript-level codes A1--C5 in Appendix~B; (3) HACO dimensions used
-deductively in Phase~B. The phrase ``operational definitions used throughout coding''
+deductively in Phase~6. The phrase ``operational definitions used throughout coding''
 has been replaced with ``interpretive criteria used to connect final codes to research
 questions.'' \\
 
 Sup6 &
 The quotes in Table~3.3 do not clearly show the connection to the concepts in
 Chapter~3; longer quotes with more context would help. &
-Table~3.3 has been revised: it is described as a representative evidence-chain table
-rather than the complete coding evidence. Where automated transcripts were unclear,
-entries have been converted to labelled paraphrases. The B1 row has been replaced with
-P4's real incident (23:30--24:24), which provides clearer analytical grounding than
-the previous P2 entry. \\
+Table~3.3 has been revised: it is described as a representative evidence-chain table rather than the complete coding evidence. Entries are verbatim where the automated transcript is clear enough; two entries remain labelled paraphrases. The B1 row uses P4's real incident (23:30--24:24), which provides clearer analytical grounding than the previous P2 entry, and P7's recounted incident (40:29) is reported alongside it in Section~4.2.2. Item-level evidence for the risk checklist is in Appendix~D. \\
 
 Sup7 &
 I still do not understand how you came up with the model components in Table~3.4.
 What is the purpose of the model? &
-Section~3.6 now explains the three-phase construction: Phase~A codes, Phase~B HACO
-mapping, Phase~C synthesis. Task characteristics informed zone definitions and
-number-withholding principle; Teaming characteristics informed facilitator mediation,
-examine-both-signals, and override justification; Trust informed transparency and
-risk conditions. The purpose is stated: a practitioner-oriented structure for deciding
-what AI may do, how AI information reaches the planning discussion, which decisions
-must remain human, which safeguards govern disagreement, and which conditions indicate
-elevated risk. \\
+Section~3.6 now explains the construction: the codes from Phases~2--5 were mapped onto HACO in Phase~6, and the model was constructed from the mapped codes. Task characteristics informed the zone definitions and the number-withholding principle; teaming characteristics informed facilitator mediation, examine-both-signals, and override justification; trust informed transparency and risk conditions. Section~3.6 also states which parts of each component are data-derived (the zones; Principles~1, 2, 3 and~5; the checklist, with item-level evidence in Appendix~D) and which are partly normative (Principle~4). The purpose is stated: a practitioner-oriented structure for deciding what AI may do, how AI information reaches the planning discussion, which decisions must remain human, which safeguards govern disagreement, and which conditions indicate elevated risk. \\
 
 Sup8 &
 ``Their responses were discussed with the thesis supervisor in a Teams meeting prior
 to the final submission.'' When did we discuss this? What was the output? Where are
 the full first-round responses? &
-This sentence has been removed. The first round is now described as ``informal
-preliminary feedback with limited traceability; a complete written record is not
-available.'' According to the authors' reconstruction, it was associated with two
-refinements: adding sprint inertia and significant team composition change as moderate
-risk conditions. These reconstructed outputs are reported with an explicit traceability
-caveat, and no supervisor confirmation is claimed. The second round (email,
-August--September 2026) produced the verifiable record in Appendix~C. \\
+This sentence has been removed. Section~3.6 now describes the first round as informal and preliminary: ``a complete written record is not available, and this round is given no evidential weight in this thesis.'' According to the authors' reconstruction, it was associated with two refinements (now checklist items 10 and 11); both are independently supported by interview accounts (Appendix~D). No supervisor confirmation is claimed. The second round (email, August--September 2026) produced the written record in Appendix~C. \\
 
 Sup9 &
 What was the purpose of the second validation? What new things did it bring? &
-The purpose was to produce a credible written record that could be examined directly.
-Concrete outputs: two new checklist items added (item~12: unacknowledged trust
-erosion from P6; item~13: short-term availability blind spots from P8); item~9
-wording changed (``developer override asserted without articulated basis''); P6
-extended the human authority principle; P4's response revealed that some principles
-are aspirational, leading to framing the model as a proposed standard rather than a
-description of current practice. \\
+The purpose was to produce a credible written record that could be examined directly. Concrete outputs: two new checklist items added (item~12: unacknowledged trust erosion, proposed by P6; item~13: short-term availability blind spots, proposed by P8); item~9 wording changed (``developer override asserted without articulated basis''); P6 extended the human authority principle; P4's response revealed that some principles are aspirational, leading to framing the model as a proposed standard rather than a description of current practice. Table~5.1 lists every proposal and its disposition, including those not adopted and why. \\
 
 Sup10 &
 RQ3 has a team angle but Section~3.7.3 leaves it as future work. How can findings
@@ -437,18 +370,11 @@ others), and evidence type. \\
 
 Sup12 &
 Check consistency of all reported numbers across chapters. &
-A systematic audit has been performed. All Vignette~B findings now use n=8.
-Principle~4 evidence states 2/8. The checklist consistently shows 13 conditions.
-P5 is N/A for B1--B4 throughout. \\
+Every count was re-derived from the transcripts. This found four cells in the code coverage table that did not match the transcripts, and they were corrected (Table~3.2): P9 added to A2 (reasoned from the AI figure, 10:45); P7 added to B1 (recounted real incident, 40:29); P1 and P2 removed from B4 (their reasons do not meet the B4 definition, Section~3.5); P3 added to C2 (35:07). The A1 definition was tightened so that it no longer overlaps with A2. All dependent counts in the text, the summary tables, the checklist and Figure~4.1 were updated. All Vignette~B findings use n=8, and the checklist shows 13 conditions throughout. \\
 
 Sup13 &
 Explain how Figure~4.1 can be used. &
-Figure~4.1 caption and surrounding paragraph revised. The figure now functions as a
-process map: before planning, the facilitator uses Zone~1 to review AI analysis
-privately; during planning, Zone~2 shows how signals can be introduced without
-exposing the team to an anchor; Zone~3 identifies human-only decisions. The five
-principles govern information flow between zones; the risk checklist indicates when
-additional safeguards are required. \\
+Figure~4.1 has been redrawn from the final component definitions. Its counts match Table~3.2 and state their denominators; the principles are labelled IP1--IP5 so they cannot be confused with participant labels; Zone~1 uses the same name as the text (``AI analytical support''); all 13 checklist items appear with the final item~9 wording; and the earlier ordering ``by evidence strength'' has been removed. The caption and surrounding paragraph explain its use as a process map: before planning, the facilitator uses Zone~1 to review AI analysis privately; during planning, Zone~2 shows how signals can be introduced without exposing the team to an anchor; Zone~3 identifies human-only decisions. The five principles govern information flow between zones; the risk checklist indicates when additional safeguards are required. \\
 
 \end{longtable}
 }
@@ -480,11 +406,13 @@ response to a specific reviewer comment.
         The RQ1b and RQ2 summary tables report participant coverage and evidence type.
 
   \item \textbf{Two additional evidence corrections were made during the final audit}.
-        First, P2 was recoded from B1 to B4. Table~3.3 now assigns B1 to P4's recounted
-        real incident (23:30--24:24), and the Results state that no participant directly
-        demonstrated B1 in their own Vignette~B response. Second, a composite P7
-        quotation that combined two separate incidents was removed; P7's evidence now
-        appears only as correctly attributed quotations and paraphrases.
+        First, P2's Vignette~B response is no longer coded B1; on re-checking it against
+        the B4 definition it is not coded B4 either, because P2 accepted that the AI tool
+        might be right but preferred the developer to learn from the outcome
+        (Section~3.5). Table~3.3 assigns B1 to P4's recounted real incident
+        (23:30--24:24), and P7's recounted incident (40:29) is reported alongside it.
+        Second, a composite P7 quotation that combined two separate incidents was
+        removed; P7's evidence now appears only as correctly attributed quotations.
 
   \item \textbf{Two new Discussion sub-sections added}: Section~5.3 (Convergence of
         Evidence Across Interview Parts) distinguishes stronger from weaker evidential
@@ -508,8 +436,56 @@ response to a specific reviewer comment.
           \item choetkiertikul2018deep: year corrected to 2019 (TSE vol.~45).
         \end{itemize}
 
-  \item \textbf{GenAI disclosure updated}: Claude (Anthropic) named specifically as
-        the tool used for language assistance and vignette scenario development.
+  \item \textbf{Bias language revised}. Identifying anchoring risk is not treated as
+        evidence that anchoring occurred: ``bias manifested'' does not appear, and the
+        thesis says practitioners ``described'' patterns or gave responses ``consistent
+        with'' them. Section~3.7.1 adds that A2 reasoning partly reflects the vignette
+        question as posed.
+
+  \item \textbf{Model provenance stated} (Section~3.6). The model ``was then constructed
+        by combining recurring participant accounts, the HACO mapping, and the
+        theoretical concepts established before data collection,'' and Section~3.6 now
+        states for each component which parts are data-derived, partly normative or
+        validation-derived. The word ``emerged'' no longer appears in the thesis.
+
+  \item \textbf{Role pattern reported} (Sections~3.7.3, 4.2.1 and 5.1.1, the abstract
+        and Section~6.1). The anchoring concern, number withholding and the
+        facilitator-as-mediator arrangement are held by exactly the five Scrum Masters;
+        the three other participants who answered Vignette~A reasoned from the AI figure.
+        The abstract and conclusions are qualified accordingly.
+
+  \item \textbf{Real-practice evidence reported} (Section~4.2.1). All five Scrum Masters
+        described real situations in which a figure anchored their team's planning; for
+        three of them the figure did not come from an AI tool, which is stated.
+
+  \item \textbf{Risk checklist evidence} (Section~4.5.3 and Appendix~D). Every item lists
+        its supporting participants, timestamps and source type. Attributions were
+        corrected where the transcripts did not support them (for example, P1 removed
+        from items 2 and 3). Item~11 was renamed ``recent-success overconfidence''
+        because P7 used ``sprint inertia'' for a different phenomenon.
+
+  \item \textbf{Analysis approach and sample adequacy} (Sections~3.3 and~3.5). The
+        analysis is named as a codebook approach to thematic analysis with one phase
+        scheme, and sample adequacy is argued using information power. Two references
+        were added: Braun and Clarke (2021) and Malterud et al.\ (2016).
+
+  \item \textbf{Validation reporting} (Sections~3.6, 5.2.3 and 5.5). Table~5.1 gives the
+        disposition of every validator proposal, and the limitations section describes
+        both rounds as in Section~3.6 and discusses the circularity of the second round.
+
+  \item \textbf{Generative AI and ethics} (Sections~3.8 and~5.6). A dedicated section
+        declares the use of Claude (Anthropic), including its role in drafting the
+        vignettes and in the final revision. The ethics section covers consent,
+        third-party transcription by Microsoft Teams, data handling, and a societal
+        consequence of the model (the facilitator's control over what the team sees).
+
+  \item \textbf{Formal and presentation fixes}. The abstract follows the five required
+        elements; keywords are reduced to five; the title page is dated October 2026;
+        the participant table fits the page; duplicated sentences and the repeated HACO
+        paragraph were removed; the attribution of planning poker to Grenning and Cohn
+        (neither in the bibliography) was removed; the description of Klieger et al.\ was
+        restated in terms of what the source reports; P5's experience was corrected to
+        approximately 15 years; and Section~6.2 reports the achievement of each objective.
 
   \item \textbf{Consent priming acknowledged as limitation} (Section~5.5): the
         consent information sheet disclosed the study's focus on cognitive bias before
